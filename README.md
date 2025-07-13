@@ -40,7 +40,7 @@ docker run -p 8080:8080 simpletimeservice
 
 ### 4. Test the Service
 
-Visit `http://localhost:8080` in your browser or use:
+Visit `http://localhost:8080` in your browser or open New Terminal and test by using the below command:
 
 ```bash
 curl http://localhost:8080
