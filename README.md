@@ -57,22 +57,6 @@ docker pull kaviyavk/simpletimeservice:latest
 docker run -p 8080:8080 kaviyavk/simpletimeservice
 ```
 
----
-
-## Project Structure
-
-```
-DevOps/
-├── app/
-│   ├── Dockerfile       # Secure, multi-stage build
-│   ├── go.mod          # Module definition
-│   ├── go.sum          # Dependency checksums
-│   └── main.go         # Gin web service
-└── README.md           # Project documentation
-```
-
----
-
 ### Testing
 
 ```bash
@@ -89,3 +73,19 @@ Accessing the root path (`/`) will return:
   "ip": "127.0.0.1"
 }
 ```
+
+---
+
+## Project Structure
+
+```
+DevOps/
+├── app/
+│   ├── Dockerfile       # Secure, multi-stage build
+│   ├── go.mod          # Module definition
+│   ├── go.sum          # Dependency checksums
+│   └── main.go         # Gin web service
+└── README.md           # Project documentation
+```
+
+---
